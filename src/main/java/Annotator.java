@@ -6,8 +6,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.util.LinkedList;
-import java.util.List;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
@@ -36,27 +35,39 @@ public class Annotator {
     }
 
     public String annotate(String html) {
-        Document doc = Jsoup.parse(html);
-        // TODO: wont pretty much every element match this regex if it has any text at all?
-        Elements matches = doc.getElementsMatchingOwnText(NameURLPayload.nameRegex);
+        Document doc = Jsoup.parseBodyFragment(html);
+        Elements matches = doc.getAllElements();
+        StringBuilder sb = new StringBuilder();
         for (Element e: matches) {
             String tagName = e.tagName();
+            String text = e.ownText();
             if (tagName != "a") {
-                String text = e.ownText();
                 Matcher m = Pattern.compile(NameURLPayload.nameRegex).matcher(text);
+                int end = -1;
                 while(m.find()) {
+                    int start = m.start();
+                    if (end > -1) {
+                        sb.append(text.substring(end, start));
+                    }
+                    end = m.end();
                     String possibleName = m.group();
-                    if (possibleName != null) {
-                        String url = urls.get(possibleName);
-                        if (url != null) {
-                            Element linkEl = e.appendElement("a");
-                            linkEl.attr("href", url);
-                            linkEl.text(possibleName);
-                        }
+                    String url = urls.get(possibleName);
+                    if (url != null) {
+                        Element linkEl = e.appendElement("a");
+                        linkEl.attr("href", url);
+                        linkEl.text(possibleName);
+                        sb.append(linkEl.toString());
+                    } else {
+                        sb.append(possibleName);
                     }
                 }
+                if (end > -1) {
+                    sb.append(text.substring(end));
+                }
+            } else {
+                sb.append(e.toString());
             }
         }
-        return doc.toString();
+        return sb.toString();
     }
 }

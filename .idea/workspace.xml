@@ -23,66 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LinkService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.777779">
-              <caret line="27" column="0" selection-start-line="26" selection-start-column="55" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Annotator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Annotator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Annotator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47368422">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AnnotatorTest.java">
+      <file leaf-file-name="LinkService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.38961038">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SourcegraphChallenge.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SourcegraphChallenge.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -94,24 +62,6 @@
               <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameURLPayloadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NameURLPayloadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,8 +71,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Validable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AnnotatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,10 +116,10 @@
         <option value="$PROJECT_DIR$/src/test/java/NameURLPayloadTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ModelTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/LinkService.java" />
         <option value="$PROJECT_DIR$/src/main/java/NameURLPayload.java" />
         <option value="$PROJECT_DIR$/src/test/java/AnnotatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Annotator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkService.java" />
       </list>
     </option>
   </component>
@@ -701,8 +663,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.AnnotatorTest.testAnnotate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AnnotatorTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinkService" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkService" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AnnotatorTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AnnotatorTest.testInsertOneHundredThousand" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.NameURLPayloadTest" />
       </list>
@@ -722,34 +684,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnnotatorTest - 2016.01.20 at 23h 32m 27s.xml">
-      <configuration name="AnnotatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotatorTest - 2016.01.20 at 23h 38m 57s.xml">
-      <configuration name="AnnotatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotatorTest - 2016.01.20 at 23h 51m 27s.xml">
-      <configuration name="AnnotatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 24m 05s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 25m 57s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 27m 32s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 26m 28s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 28m 43s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 28m 46s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 31m 23s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 30m 20s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 38m 36s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 31m 49s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 51m 11s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 32m 01s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.20 at 23h 52m 31s.xml">
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 33m 19s.xml">
+      <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 45m 28s.xml">
+      <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 46m 15s.xml">
+      <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotatorTest_testAnnotate - 2016.01.21 at 20h 46m 53s.xml">
       <configuration name="AnnotatorTest.testAnnotate" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -764,7 +726,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0471831" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2562189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39054728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24647887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -862,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Validable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SourcegraphChallenge.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -886,19 +840,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NameURLPayload.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar!/org/jsoup/nodes/Element.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3499079">
+          <caret line="517" column="19" selection-start-line="517" selection-start-column="19" selection-end-line="517" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -912,21 +858,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar!/org/jsoup/parser/TreeBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5473684">
-          <caret line="533" column="18" selection-start-line="533" selection-start-column="18" selection-end-line="533" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.16574585">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar!/org/jsoup/parser/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3314917">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <element signature="e#17066#17067#0" expanded="true" />
-            <element signature="e#17097#17098#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar!/org/jsoup/nodes/Element.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.jar!/com/fasterxml/jackson/databind/SerializationFeature.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3499079">
-          <caret line="517" column="19" selection-start-line="517" selection-start-column="19" selection-end-line="517" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.19889502">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="412" column="15" selection-start-line="412" selection-start-column="15" selection-end-line="412" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -934,19 +896,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/AnnotatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.777779">
-          <caret line="27" column="0" selection-start-line="26" selection-start-column="55" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -954,17 +905,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Annotator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47368422">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NameURLPayload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38961038">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,7 +5,6 @@ import static spark.Spark.*;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -24,7 +23,6 @@ public class LinkService {
             String url = annotator.getUrl(name);
             if (url == null) {
                 response.status(HTTP_NOT_FOUND);
-                //System.out.println("HTTP_NOT_FOUND");
                 return "";
             }
             NameURLPayload data = new NameURLPayload(name, url);
@@ -40,21 +38,16 @@ public class LinkService {
             JsonNode rootNode = mapper.readTree(body);
             JsonNode urlNode = rootNode.get("url");
             if (urlNode == null) {
-                //System.out.println("no url found");
                 response.status(HTTP_BAD_REQUEST);
                 return "";
             }
             String url = urlNode.asText();
-            //System.out.println("name: " + name);
-            //System.out.println("url: " + url);
             NameURLPayload data = new NameURLPayload(name, url);
             if (!data.isValid()) {
-                //System.out.println("data not valid");
                 response.status(HTTP_BAD_REQUEST);
                 return "";
             }
             annotator.setNameURL(data);
-            //System.out.println("Good request");
             response.status(200);
             return "";
         });
@@ -81,11 +74,10 @@ public class LinkService {
     private static String dataToJson(Object data) {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            // TODO: write to single line
-            mapper.enable(SerializationFeature.INDENT_OUTPUT);
             StringWriter sw = new StringWriter();
             mapper.writeValue(sw, data);
-            return sw.toString();
+            String json = sw.toString();
+            return json;
         } catch (IOException e){
             throw new RuntimeException("IOException from a StringWriter");
         }

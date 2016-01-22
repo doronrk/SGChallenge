@@ -93,8 +93,10 @@ public class AnnotatorTest {
         String url = "http://alex.com";
         NameURLPayload payload = new NameURLPayload(name, url);
         m.setNameURL(payload);
-        String html = "Alex Alexander <a href=\"http://foo.com\" data-Bo=\"Bo\">Some sentence about Bo</a>";
+        //String html = "Alex Alexander <a href=\"http://foo.com\" data-Bo=\"Bo\">Some sentence about Bo</a>";
+        String html = "<div data-alex=\"alex\">alex</div>";
         String htmlOut = m.annotate(html);
+        System.out.println();
         System.out.println(htmlOut);
         assertTrue(htmlOut != null);
     }
